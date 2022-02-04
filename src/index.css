@@ -103,3 +103,10 @@ a{
 .button:hover{
   background-color: #53644c;
 }
+.filter{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem black solid;
+}
