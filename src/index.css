@@ -93,14 +93,14 @@ a{
 .product-price div{
   font-size: 2rem;
 }
-.button{
+.primary {
   padding: 1rem;
   color: white;
   background-color: #68835D;
   border-radius: 1.5rem;
   cursor: pointer;
 }
-.button:hover{
+.primary:hover{
   background-color: #53644c;
 }
 .filter{
@@ -109,4 +109,49 @@ a{
   padding: 1rem;
   margin: 1rem;
   border-bottom: 0.1rem black solid;
+}
+.cart{
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+.cart-header{
+  border-bottom: 0.1rem solid rgb(122, 120, 120);
+}
+.cart-items{
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+.cart-items img{
+  width: 5rem;
+  margin-right: 1rem;
+}
+.cart-items ul{
+  padding: 0;
+}
+.cart-items li{
+  display: flex;
+}
+.right{
+  display: flex;
+  justify-content: space-between;
+}
+.cart-items li div{
+  padding: .5rem;
+}
+.cart-items li div:last-child{
+  flex: 1;
+}
+.total{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.total > div{
+  font-size: 2rem;
+}
+.total > div, .total > button{
+  flex: 1;
 }
