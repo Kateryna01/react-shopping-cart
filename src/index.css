@@ -57,15 +57,14 @@ body, input, button, select, textarea{
 .products{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 .products li{
-  flex: 0 1 29rem;
-  height: 47rem;
+  height: 40rem;
   padding: 1rem;
 }
 a{
@@ -74,7 +73,7 @@ a{
 .product {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100%;
 }
 .product img{
@@ -154,4 +153,21 @@ a{
 }
 .total > div, .total > button{
   flex: 1;
+}
+form{
+  width: 100%;
+}
+.form-container{
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+.form-container li{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+input{
+  padding: 1rem;
+  border: 0.1rem solid rgb(122, 120, 120);
 }
