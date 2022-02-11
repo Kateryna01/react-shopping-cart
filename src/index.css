@@ -67,8 +67,14 @@ body, input, button, select, textarea{
   height: 40rem;
   padding: 1rem;
 }
-a{
+.product > a {
   text-decoration: none;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+.product > a:hover{
+  color: gray;
 }
 .product {
   display: flex;
@@ -107,7 +113,7 @@ a{
   justify-content: space-around;
   padding: 1rem;
   margin: 1rem;
-  border-bottom: 0.1rem black solid;
+  border-bottom: 0.1rem rgb(122, 120, 120) solid;
 }
 .cart{
   padding: 1rem;
@@ -170,4 +176,24 @@ form{
 input{
   padding: 1rem;
   border: 0.1rem solid rgb(122, 120, 120);
+}
+
+.product-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-height: 96vh;
+}
+.product-details img{
+  max-height: 100vh;
+  max-width: 20rem;
+}
+.product-details-description{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.button-close{
+  display: flex;
+  justify-content: end;
 }
